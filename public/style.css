@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #444;
+    min-height: 100vh;
+}
+
+.container h1 {
+    color: white;
+}
+
+.todos {
+    width: 50%;
+    height: 60vh;
+    background-color: #333;
+    color: #fff;
+    padding: .5rem;
+    border-radius: .6rem;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: .6rem;
+}
+
+.todo:hover {
+    background-color: #111;
+}
+
+.todo p {
+    opacity: .6;
+}
+
+.btn {
+    border: none;
+    color: #ff0000;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.form {
+    width: 50%;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    border-radius: .6rem;
+}
+
+.form-field {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.form-field label {
+    flex-basis: 20%;
+}
+
+.form-field input {
+    flex-basis: 80%;
+    border: none;
+    border-radius: .6rem;
+    padding: .2rem;
+}
+
+.form-field textarea {
+    flex-basis: 80%;
+    resize: none;
+    border: none;
+    border-radius: .6rem;
+    padding: .2rem;
+}
+
+.form button {
+    border: none;
+    border-radius: .6rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.form button:hover {
+    background-color: orange;
+    color: #fff;
+}
