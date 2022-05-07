@@ -96,3 +96,7 @@ body {
     background-color: orange;
     color: #fff;
 }
+
+input:focus {
+    outline: none;
+}

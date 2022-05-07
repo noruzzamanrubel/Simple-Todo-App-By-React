@@ -21,7 +21,7 @@ const NewTodo = (props) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         props.onAddTodo(todo);
-        setTodo({ title: "", desc: "" });
+        setTodo({ title: ""});
     };
 
     return (
