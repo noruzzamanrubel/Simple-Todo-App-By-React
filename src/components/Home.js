@@ -8,9 +8,11 @@ const Home = () => {
   const handleAddTodo = (todo) => {
     setTodos((oldTodos) => [...oldTodos, { ...todo, id: uuidv4() }]);
   };
+
   const handleremoveTodo = (id) => {
     setTodos((oldTodos) => oldTodos.filter((todo) => todo.id !== id));
   };
+
   return (
     <div className="container">
       <h1>Todo App</h1>

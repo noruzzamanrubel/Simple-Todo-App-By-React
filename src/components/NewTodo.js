@@ -5,6 +5,7 @@ const NewTodo = (props) => {
     title: "",
     desc: "",
   });
+
   const { title, desc } = todo;
 
   const handleChange = (e) => {
@@ -16,6 +17,7 @@ const NewTodo = (props) => {
       };
     });
   };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     props.onAddTodo(todo);
@@ -35,7 +37,7 @@ const NewTodo = (props) => {
         />
       </div>
       <div className="form-field">
-        <label htmlFor="desc">Desc</label>
+        <label htmlFor="desc">Description</label>
         <textarea
           type="text"
           id="desc"
