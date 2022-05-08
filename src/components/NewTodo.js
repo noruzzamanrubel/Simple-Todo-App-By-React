@@ -34,6 +34,7 @@ const NewTodo = (props) => {
                     name="title"
                     value={title}
                     onChange={handleChange}
+                    required
                 />
             </div>
             <div className="form-field">
@@ -44,6 +45,7 @@ const NewTodo = (props) => {
                     name="desc"
                     value={desc}
                     onChange={handleChange}
+                    required
                 />
             </div>
             <button type="submit">Add Todo</button>
